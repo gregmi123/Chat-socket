@@ -1,0 +1,9 @@
+spring:
+  activemq:
+    prefetch: 5
+    broker:
+      url: tcp://localhost:6616?jms.redeliveryPolicy.maximumRedeliveries=1
+      user: admin
+      password: admin
+server:
+  port: 8090
